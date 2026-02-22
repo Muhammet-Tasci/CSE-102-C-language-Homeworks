@@ -11,6 +11,6 @@ This project is a dynamic number-guessing game inspired by classic codebreaker s
 
 ## Technical Implementation
 This assignment heavily emphasizes advanced C programming concepts:
-* **Dynamic Memory Allocation:** Strictly avoids global or static arrays for storing the code and guesses[cite: 374]. Instead, it utilizes `malloc()` within custom functions (`generate_code()` and `get_guess()`) to allocate exact memory sizes based on the admin's chosen code length, subsequently freeing (`free()`) the memory in `main()` to prevent leaks.
+* **Dynamic Memory Allocation:** Strictly avoids global or static arrays for storing the code and guesses. Instead, it utilizes `malloc()` within custom functions (`generate_code()` and `get_guess()`) to allocate exact memory sizes based on the admin's chosen code length, subsequently freeing (`free()`) the memory in `main()` to prevent leaks.
 * **Pointer Arithmetic & Returns:** Functions are designed to return integer pointers (`int*`) to pass dynamically created arrays safely back to the main execution loop.
 * **Complex Validation Logic:** Implements robust error handling and `do-while` loops to ensure admin configurations are logical (e.g., preventing impossible constraints like generating a 5-digit unique code using only numbers 1-3).
