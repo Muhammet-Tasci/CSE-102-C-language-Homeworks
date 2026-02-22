@@ -1,7 +1,7 @@
 # Assignment 3: Virtual ATM Simulator
 
 ## Overview
-This project is a Virtual ATM Simulator developed in C for the CSE 102 Computer Programming course[cite: 2, 5]. It mimics basic banking operations, allowing users to check their balance, deposit funds, and withdraw money[cite: 5]. The system ensures data persistence by saving the account balance to a text file (`account.txt`) between program executions.
+This project is a Virtual ATM Simulator developed in C for the CSE 102 Computer Programming course. It mimics basic banking operations, allowing users to check their balance, deposit funds, and withdraw money. The system ensures data persistence by saving the account balance to a text file (`account.txt`) between program executions.
 
 ## Key Features
 * **Account Initialization:** Automatically creates a new account with an initial balance of $100.00 if no previous record exists.
